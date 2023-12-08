@@ -1,0 +1,34 @@
+2023-12-09 01:57:59.785 +05:00  INF  Now listening on: https://localhost:7061
+2023-12-09 01:57:59.881 +05:00  INF  Now listening on: http://localhost:5052
+2023-12-09 01:57:59.900 +05:00  INF  Application started. Press Ctrl+C to shut down.
+2023-12-09 01:57:59.903 +05:00  INF  Hosting environment: Development
+2023-12-09 01:57:59.903 +05:00  INF  Content root path: E:\tutorialsfusion.com\src\SerilogWebApi\SerilogWebApi\
+2023-12-09 01:58:00.325 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - -
+2023-12-09 01:58:00.866 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - - - 200 - text/html;charset=utf-8 542.9906ms
+2023-12-09 01:58:00.869 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - -
+2023-12-09 01:58:00.869 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - -
+2023-12-09 01:58:00.888 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 19.1800ms
+2023-12-09 01:58:00.907 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.7157ms
+2023-12-09 01:58:01.008 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - -
+2023-12-09 01:58:01.143 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.3349ms
+2023-12-09 01:58:05.729 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/WeatherForecast - -
+2023-12-09 01:58:05.739 +05:00  INF  Executing endpoint 'SerilogWebApi.Controllers.WeatherForecastController.Get (SerilogWebApi)'
+2023-12-09 01:58:05.774 +05:00  INF  Route matched with {action = "Get", controller = "WeatherForecast"}. Executing controller action with signature System.Collections.Generic.IEnumerable`1[SerilogWebApi.WeatherForecast] Get() on controller SerilogWebApi.Controllers.WeatherForecastController (SerilogWebApi).
+2023-12-09 01:58:05.776 +05:00  INF  Hello this is information logging using serilog
+2023-12-09 01:58:05.788 +05:00  INF  Executing ObjectResult, writing value of type 'SerilogWebApi.WeatherForecast[]'.
+2023-12-09 01:58:05.820 +05:00  INF  Executed action SerilogWebApi.Controllers.WeatherForecastController.Get (SerilogWebApi) in 39.5109ms
+2023-12-09 01:58:05.823 +05:00  INF  Executed endpoint 'SerilogWebApi.Controllers.WeatherForecastController.Get (SerilogWebApi)'
+2023-12-09 01:58:05.824 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/WeatherForecast - - - 200 - application/json;+charset=utf-8 94.2010ms
+2023-12-09 02:03:48.472 +05:00  INF  Now listening on: https://localhost:7061
+2023-12-09 02:03:48.534 +05:00  INF  Now listening on: http://localhost:5052
+2023-12-09 02:03:48.542 +05:00  INF  Application started. Press Ctrl+C to shut down.
+2023-12-09 02:03:48.542 +05:00  INF  Hosting environment: Development
+2023-12-09 02:03:48.543 +05:00  INF  Content root path: E:\tutorialsfusion.com\src\SerilogWebApi\SerilogWebApi\
+2023-12-09 02:03:49.260 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/swagger/index.html - -
+2023-12-09 02:03:49.809 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/_vs/browserLink - -
+2023-12-09 02:03:49.809 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - -
+2023-12-09 02:03:49.825 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/_framework/aspnetcore-browser-refresh.js - - - 200 12358 application/javascript;+charset=utf-8 14.0406ms
+2023-12-09 02:03:49.825 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/swagger/index.html - - - 200 - text/html;charset=utf-8 572.7920ms
+2023-12-09 02:03:49.841 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 31.4947ms
+2023-12-09 02:03:49.923 +05:00  INF  Request starting HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - -
+2023-12-09 02:03:50.058 +05:00  INF  Request finished HTTP/2 GET https://localhost:7061/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 135.3180ms

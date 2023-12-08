@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "iKeSX3VTL8YOPQs6nZT6CPvBfb4l7l7/sBx4y5Smugw=",
+  "Source": "SerilogWebApi",
+  "BasePath": "_content/SerilogWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
